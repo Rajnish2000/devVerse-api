@@ -1,0 +1,22 @@
+{
+  "name": "devverse",
+  "version": "0.0.0",
+  "private": true,
+  "main": "api/src/app.js",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "type": "module",
+  "license": "MIT",
+  "author": "DevVerse Team",
+  "description": "A platform for developers to collaborate and share knowledge.",
+  "scripts": {
+    "start": "node api/src/app.js",
+    "dev": "nodemon api/src/app.js"
+  },
+  "dependencies": {
+    "@dotenvx/dotenvx": "^1.48.4",
+    "express": "^4.21.2",
+    "mongoose": "^8.16.4"
+  }
+}
