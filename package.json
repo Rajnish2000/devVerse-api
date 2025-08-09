@@ -16,7 +16,10 @@
   },
   "dependencies": {
     "@dotenvx/dotenvx": "^1.48.4",
+    "bcryptjs": "^3.0.2",
     "express": "^4.21.2",
-    "mongoose": "^8.16.4"
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.4",
+    "multer": "^2.0.2"
   }
 }
